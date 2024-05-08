@@ -3,7 +3,6 @@ package com.lrincon.pruebas_proyecto
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
-import android.widget.ImageButton
 import androidx.fragment.app.Fragment
 
 class EliminarFragment: Fragment(R.layout.fragment_verificacion_eliminar) {

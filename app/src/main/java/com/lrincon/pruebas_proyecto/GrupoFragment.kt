@@ -12,6 +12,7 @@ class GrupoCreadoFragment: Fragment(R.layout.fragment_grupo_creado) {
 
         val buttonCrearGrupo = view.findViewById<Button>(R.id.crearGrupo)
         val buttonEliminar = view.findViewById<ImageButton>(R.id.eliminar)
+        val buttonEditar = view.findViewById<ImageButton>(R.id.editar)
 
         buttonCrearGrupo.setOnClickListener {
             val fragment = CrearGrupoFragment()
@@ -23,6 +24,14 @@ class GrupoCreadoFragment: Fragment(R.layout.fragment_grupo_creado) {
 
         buttonEliminar.setOnClickListener {
             val fragment = EliminarFragment()
+            val transaction = parentFragmentManager.beginTransaction()
+            transaction.replace(R.id.containerView, fragment)
+            transaction.addToBackStack(null)
+            transaction.commit()
+        }
+
+        buttonEditar.setOnClickListener {
+            val fragment = ActualizarFragment()
             val transaction = parentFragmentManager.beginTransaction()
             transaction.replace(R.id.containerView, fragment)
             transaction.addToBackStack(null)

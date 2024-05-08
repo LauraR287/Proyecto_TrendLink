@@ -36,5 +36,6 @@ class IntegrantesFragment: Fragment(R.layout.fragment_seleccionado_integrantes) 
             transaction.addToBackStack(null)
             transaction.commit()
         }
+
     }
 }
