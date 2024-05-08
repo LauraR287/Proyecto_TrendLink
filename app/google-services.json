@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "415323428965",
+    "project_id": "arquitecturaproyecto-cfd6f",
+    "storage_bucket": "arquitecturaproyecto-cfd6f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:415323428965:android:18720207d02c09b6e54e8c",
+        "android_client_info": {
+          "package_name": "com.lrincon.pruebas_proyecto"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoQZXSWnSER955oRAFc1xnkZw7hrqQyyo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -3,6 +3,7 @@ package com.lrincon.pruebas_proyecto
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
+import android.widget.EditText
 import android.widget.ImageButton
 import androidx.fragment.app.Fragment
 
@@ -13,6 +14,9 @@ class EditarFragment: Fragment(R.layout.fragment_ajustes_grupo)  {
         val buttonAtras = view.findViewById<Button>(R.id.atras)
         val buttonSiguiente = view.findViewById<Button>(R.id.siguiente)
         val buttonEditar = view.findViewById<ImageButton>(R.id.editar)
+
+        val nombreGrupo = view.findViewById<EditText>(R.id.editTextUser)
+        val DescripcionGrupo = view.findViewById<EditText>(R.id.descripcion)
 
         buttonAtras.setOnClickListener {
             val fragment = IntegrantesFragment()
@@ -28,6 +32,7 @@ class EditarFragment: Fragment(R.layout.fragment_ajustes_grupo)  {
             transaction.replace(R.id.containerView, fragment)
             transaction.addToBackStack(null)
             transaction.commit()
+
         }
 
         buttonEditar.setOnClickListener {
