@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.lrincon.pruebas_proyecto.app-mergeDebugResources-36:/values-h720dp-v13/values-h720dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/admin/.gradle/caches/transforms-3/d8ff6c456c32f88469492e85fd96d6ff/transformed/appcompat-1.6.1/res/values-h720dp-v13/values-h720dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,178 @@
+[
+    {
+        "merged": "com.lrincon.pruebas_proyecto.app-debug-38:/drawable_more.png.flat",
+        "source": "com.lrincon.pruebas_proyecto.app-main-40:/drawable/more.png"
+    },
+    {
+        "merged": "com.lrincon.pruebas_proyecto.app-debug-38:/drawable_cuadro_gris_redondeado.xml.flat",
+        "source": "com.lrincon.pruebas_proyecto.app-main-40:/drawable/cuadro_gris_redondeado.xml"
+    },
+    {
+        "merged": "com.lrincon.pruebas_proyecto.app-debug-38:/layout_seleccionado_integrantes.xml.flat",
+        "source": "com.lrincon.pruebas_proyecto.app-main-40:/layout/seleccionado_integrantes.xml"
+    },
+    {
+        "merged": "com.lrincon.pruebas_proyecto.app-debug-38:/drawable_conectado.xml.flat",
+        "source": "com.lrincon.pruebas_proyecto.app-main-40:/drawable/conectado.xml"
+    },
+    {
+        "merged": "com.lrincon.pruebas_proyecto.app-debug-38:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.lrincon.pruebas_proyecto.app-main-40:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.lrincon.pruebas_proyecto.app-debug-38:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.lrincon.pruebas_proyecto.app-main-40:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.lrincon.pruebas_proyecto.app-debug-38:/drawable_editar.xml.flat",
+        "source": "com.lrincon.pruebas_proyecto.app-main-40:/drawable/editar.xml"
+    },
+    {
+        "merged": "com.lrincon.pruebas_proyecto.app-debug-38:/layout_foto_grupo.xml.flat",
+        "source": "com.lrincon.pruebas_proyecto.app-main-40:/layout/foto_grupo.xml"
+    },
+    {
+        "merged": "com.lrincon.pruebas_proyecto.app-debug-38:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.lrincon.pruebas_proyecto.app-main-40:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.lrincon.pruebas_proyecto.app-debug-38:/drawable_circulo.xml.flat",
+        "source": "com.lrincon.pruebas_proyecto.app-main-40:/drawable/circulo.xml"
+    },
+    {
+        "merged": "com.lrincon.pruebas_proyecto.app-debug-38:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.lrincon.pruebas_proyecto.app-main-40:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.lrincon.pruebas_proyecto.app-debug-38:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.lrincon.pruebas_proyecto.app-main-40:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.lrincon.pruebas_proyecto.app-debug-38:/xml_data_extraction_rules.xml.flat",
+        "source": "com.lrincon.pruebas_proyecto.app-main-40:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.lrincon.pruebas_proyecto.app-debug-38:/font_news_cycle.xml.flat",
+        "source": "com.lrincon.pruebas_proyecto.app-main-40:/font/news_cycle.xml"
+    },
+    {
+        "merged": "com.lrincon.pruebas_proyecto.app-debug-38:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.lrincon.pruebas_proyecto.app-main-40:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.lrincon.pruebas_proyecto.app-debug-38:/xml_backup_rules.xml.flat",
+        "source": "com.lrincon.pruebas_proyecto.app-main-40:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.lrincon.pruebas_proyecto.app-debug-38:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.lrincon.pruebas_proyecto.app-main-40:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.lrincon.pruebas_proyecto.app-debug-38:/layout_perfil.xml.flat",
+        "source": "com.lrincon.pruebas_proyecto.app-main-40:/layout/perfil.xml"
+    },
+    {
+        "merged": "com.lrincon.pruebas_proyecto.app-debug-38:/layout_inicio.xml.flat",
+        "source": "com.lrincon.pruebas_proyecto.app-main-40:/layout/inicio.xml"
+    },
+    {
+        "merged": "com.lrincon.pruebas_proyecto.app-debug-38:/layout_ajustes_grupo.xml.flat",
+        "source": "com.lrincon.pruebas_proyecto.app-main-40:/layout/ajustes_grupo.xml"
+    },
+    {
+        "merged": "com.lrincon.pruebas_proyecto.app-debug-38:/drawable_mensaje.xml.flat",
+        "source": "com.lrincon.pruebas_proyecto.app-main-40:/drawable/mensaje.xml"
+    },
+    {
+        "merged": "com.lrincon.pruebas_proyecto.app-debug-38:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.lrincon.pruebas_proyecto.app-main-40:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.lrincon.pruebas_proyecto.app-debug-38:/drawable_separador_v4.png.flat",
+        "source": "com.lrincon.pruebas_proyecto.app-main-40:/drawable/separador_v4.png"
+    },
+    {
+        "merged": "com.lrincon.pruebas_proyecto.app-debug-38:/layout_crear.xml.flat",
+        "source": "com.lrincon.pruebas_proyecto.app-main-40:/layout/crear.xml"
+    },
+    {
+        "merged": "com.lrincon.pruebas_proyecto.app-debug-38:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.lrincon.pruebas_proyecto.app-main-40:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.lrincon.pruebas_proyecto.app-debug-38:/drawable_hogar.png.flat",
+        "source": "com.lrincon.pruebas_proyecto.app-main-40:/drawable/hogar.png"
+    },
+    {
+        "merged": "com.lrincon.pruebas_proyecto.app-debug-38:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.lrincon.pruebas_proyecto.app-main-40:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.lrincon.pruebas_proyecto.app-debug-38:/layout_grupo_creado.xml.flat",
+        "source": "com.lrincon.pruebas_proyecto.app-main-40:/layout/grupo_creado.xml"
+    },
+    {
+        "merged": "com.lrincon.pruebas_proyecto.app-debug-38:/drawable_diseniar.png.flat",
+        "source": "com.lrincon.pruebas_proyecto.app-main-40:/drawable/diseniar.png"
+    },
+    {
+        "merged": "com.lrincon.pruebas_proyecto.app-debug-38:/drawable_usuario.xml.flat",
+        "source": "com.lrincon.pruebas_proyecto.app-main-40:/drawable/usuario.xml"
+    },
+    {
+        "merged": "com.lrincon.pruebas_proyecto.app-debug-38:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.lrincon.pruebas_proyecto.app-main-40:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.lrincon.pruebas_proyecto.app-debug-38:/layout_verificacion_eliminar.xml.flat",
+        "source": "com.lrincon.pruebas_proyecto.app-main-40:/layout/verificacion_eliminar.xml"
+    },
+    {
+        "merged": "com.lrincon.pruebas_proyecto.app-debug-38:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.lrincon.pruebas_proyecto.app-main-40:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.lrincon.pruebas_proyecto.app-debug-38:/drawable_basura.png.flat",
+        "source": "com.lrincon.pruebas_proyecto.app-main-40:/drawable/basura.png"
+    },
+    {
+        "merged": "com.lrincon.pruebas_proyecto.app-debug-38:/drawable_busqueda.png.flat",
+        "source": "com.lrincon.pruebas_proyecto.app-main-40:/drawable/busqueda.png"
+    },
+    {
+        "merged": "com.lrincon.pruebas_proyecto.app-debug-38:/layout_busqueda.xml.flat",
+        "source": "com.lrincon.pruebas_proyecto.app-main-40:/layout/busqueda.xml"
+    },
+    {
+        "merged": "com.lrincon.pruebas_proyecto.app-debug-38:/layout_editar_grupo.xml.flat",
+        "source": "com.lrincon.pruebas_proyecto.app-main-40:/layout/editar_grupo.xml"
+    },
+    {
+        "merged": "com.lrincon.pruebas_proyecto.app-debug-38:/menu_nav_menu.xml.flat",
+        "source": "com.lrincon.pruebas_proyecto.app-main-40:/menu/nav_menu.xml"
+    },
+    {
+        "merged": "com.lrincon.pruebas_proyecto.app-debug-38:/layout_activity_main.xml.flat",
+        "source": "com.lrincon.pruebas_proyecto.app-main-40:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.lrincon.pruebas_proyecto.app-debug-38:/layout_bandeja_mensajes.xml.flat",
+        "source": "com.lrincon.pruebas_proyecto.app-main-40:/layout/bandeja_mensajes.xml"
+    },
+    {
+        "merged": "com.lrincon.pruebas_proyecto.app-debug-38:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.lrincon.pruebas_proyecto.app-main-40:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.lrincon.pruebas_proyecto.app-debug-38:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.lrincon.pruebas_proyecto.app-main-40:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.lrincon.pruebas_proyecto.app-debug-38:/layout_seleccionar_integrantes.xml.flat",
+        "source": "com.lrincon.pruebas_proyecto.app-main-40:/layout/seleccionar_integrantes.xml"
+    },
+    {
+        "merged": "com.lrincon.pruebas_proyecto.app-debug-38:/drawable_separador_v3.png.flat",
+        "source": "com.lrincon.pruebas_proyecto.app-main-40:/drawable/separador_v3.png"
+    }
+]
