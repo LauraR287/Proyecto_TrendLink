@@ -1,13 +1,20 @@
 package com.lrincon.pruebas_proyecto
 
+import android.content.ContentValues.TAG
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import android.widget.Button
 import android.widget.EditText
 import android.widget.ImageButton
 import androidx.fragment.app.Fragment
+import com.google.firebase.database.FirebaseDatabase
 
-class ActualizarFragment: Fragment(R.layout.fragment_editar_grupo)  {
+class ActualizarFragment: Fragment(R.layout.editar_grupo)  {
+
+    private val database = FirebaseDatabase.getInstance()
+    private lateinit var editTextNombre: EditText
+    private lateinit var editTextDescripcion: EditText
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
@@ -27,19 +34,21 @@ class ActualizarFragment: Fragment(R.layout.fragment_editar_grupo)  {
         }
 
         buttonSiguiente.setOnClickListener {
-            val GrupoFunctions = GrupoFunctions()
-            val grupoId = "grupoId"
-            val actualizaciones = mapOf(
-                "nombre" to nombreGrupo.text.toString(),
-                "descripcion" to DescripcionGrupo.text.toString()
-            )
 
-            GrupoFunctions.actualizarGrupo(grupoId, actualizaciones)
-                .addOnSuccessListener {
-                    println("Datos actualizados con éxito")  // Confirmar éxito
+            val grupoId = "NwM48IkJ3nxeap5H1Si" // Cambia esto al ID del grupo que deseas mostrar
+
+            database.getReference("grupos").child(grupoId).get().addOnSuccessListener { dataSnapshot ->
+                if (dataSnapshot.exists()) {
+                    val grupo = dataSnapshot.getValue(Grupo::class.java)
+                    editTextNombre.setText(grupo?.nombre)
+                    editTextDescripcion.setText(grupo?.descripcion)
+
+                } else {
+                    Log.d(TAG, "No se encontró el documento")
                 }
+            }
                 .addOnFailureListener { exception ->
-                    println("Error al actualizar datos: ${exception.message}")  // Manejar errores
+                    Log.d(TAG, "Error al obtener el documento:", exception)
                 }
 
             val fragment = GrupoCreadoFragment()
@@ -47,7 +56,6 @@ class ActualizarFragment: Fragment(R.layout.fragment_editar_grupo)  {
             transaction.replace(R.id.containerView, fragment)
             transaction.addToBackStack(null)
             transaction.commit()
-
         }
 
         buttonEditar.setOnClickListener {
