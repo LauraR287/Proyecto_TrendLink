@@ -27,12 +27,20 @@ class EditarFragment: Fragment(R.layout.fragment_ajustes_grupo)  {
         }
 
         buttonSiguiente.setOnClickListener {
-            val fragment = GrupoCreadoFragment()
-            val transaction = parentFragmentManager.beginTransaction()
-            transaction.replace(R.id.containerView, fragment)
-            transaction.addToBackStack(null)
-            transaction.commit()
+            val nombre = editTextNombre.text.toString()
+            val descripcion = editTextDescripcion.text.toString()
 
+            val grupoId = database.push().key
+            if (grupoId != null) {
+                val grupo = Grupo(descripcion, grupoId, nombre)
+                database.child(grupoId).setValue(grupo)
+
+                val fragment = GrupoCreadoFragment()
+                val transaction = parentFragmentManager.beginTransaction()
+                transaction.replace(R.id.containerView, fragment)
+                transaction.addToBackStack(null)
+                transaction.commit()
+            }
         }
 
         buttonEditar.setOnClickListener {
