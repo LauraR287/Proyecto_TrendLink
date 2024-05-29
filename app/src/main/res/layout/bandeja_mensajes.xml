@@ -6,9 +6,7 @@
     android:layout_height="match_parent"
     android:background="#FFFFFF"
     android:backgroundTint="#FFFFFF"
-    android:foregroundTint="#FFFFFF"
-    tools:context=".MensajesFragment">
-
+    android:foregroundTint="#FFFFFF">
 
     <ImageView
         android:id="@+id/imageView2"
@@ -57,59 +55,29 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.094" />
 
-    <ImageButton
-        android:id="@+id/chat"
-        android:layout_width="524dp"
-        android:layout_height="93dp"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewGrupos"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@id/crearGrupo"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.592"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.227"
-        app:srcCompat="@drawable/cuadro_gris_redondeado" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="53dp"
-        android:layout_height="56dp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.075"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.241"
-        app:srcCompat="@drawable/usuario" />
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp" />
 
     <TextView
-        android:id="@+id/textView3"
-        android:layout_width="206dp"
-        android:layout_height="29dp"
-        android:text="Hola, ¿cómo estás?"
-        android:textColor="@color/black"
-        android:textSize="12sp"
-        android:fontFamily="@font/news_cycle"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.458"
-        app:layout_constraintStart_toStartOf="parent"
+        android:id="@+id/noGruposTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="No hay grupos disponibles"
+        android:textSize="18sp"
+        android:visibility="gone"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.27" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="247dp"
-        android:layout_height="26dp"
-        android:text="Valentina Hernandez"
-        android:textColor="@color/black"
-        android:fontFamily="@font/news_cycle"
-        android:textSize="15sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.573"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.231" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

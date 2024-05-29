@@ -1,12 +1,14 @@
+// CONTROLLER
+// Navegación del menú
+
 package com.lrincon.pruebas_proyecto
 
 import android.os.Bundle
-import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
+import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class MainActivity : AppCompatActivity() {
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -19,6 +21,7 @@ class MainActivity : AppCompatActivity() {
         var mensajesFragment = MensajesFragment()
         var perfilFragment = PerfilFragment()
 
+        // Se le asigna un fragmento a cada icono de la barra de menú
         bottomNavigationView.setOnNavigationItemSelectedListener {
             when(it.itemId){
                 R.id.nav_inicio -> {
@@ -41,12 +44,12 @@ class MainActivity : AppCompatActivity() {
                     setCurrentFragment(perfilFragment)
                     true
                 }
-
                 else -> false
             }
         }
     }
 
+    // La función setCurrentFragment reemplaza el fragmento actual con un nuevo fragmento
     private fun setCurrentFragment(fragment: Fragment){
         supportFragmentManager.beginTransaction().apply {
             replace(R.id.containerView, fragment)

@@ -6,8 +6,7 @@
     android:layout_height="match_parent"
     android:background="#FFFFFF"
     android:backgroundTint="#FFFFFF"
-    android:foregroundTint="#FFFFFF"
-    tools:context=".CrearFragment">
+    android:foregroundTint="#FFFFFF">
 
     <Button
         android:id="@+id/atras"
@@ -31,7 +30,7 @@
         android:layout_width="349dp"
         android:layout_height="28dp"
         android:fontFamily="@font/news_cycle"
-        android:text="Ingrese los datos del grupo que quiera editar"
+        android:text="Ingrese los datos que quiera editar"
         android:textColor="@color/black"
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -39,30 +38,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.192" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="82dp"
-        android:layout_height="86dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.107"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.291"
-        app:srcCompat="@drawable/usuario" />
-
-    <ImageView
-        android:id="@+id/cuadro1"
-        android:layout_width="245dp"
-        android:layout_height="33dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.759"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.312"
-        app:srcCompat="@drawable/cuadro_gris_redondeado" />
 
     <Button
         android:id="@+id/siguiente"
@@ -81,24 +56,17 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.923" />
 
-    <EditText
-        android:id="@+id/editTextUser"
-        android:layout_width="206dp"
-        android:layout_height="29dp"
-        android:background="@android:color/transparent"
-        android:fontFamily="@font/news_cycle"
-        android:hint="Escribe el nombre del grupo"
-        android:inputType="textEmailAddress"
-        android:textColor="#515151"
-        android:textColorHint="#B0B0B0"
-        android:textSize="15sp"
-        android:textStyle="bold"
+    <ImageView
+        android:id="@+id/cuadro1"
+        android:layout_width="245dp"
+        android:layout_height="33dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.678"
+        app:layout_constraintHorizontal_bias="0.192"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.316" />
+        app:layout_constraintVertical_bias="0.255"
+        app:srcCompat="@drawable/cuadro_gris_redondeado" />
 
     <ImageView
         android:id="@+id/cuadro2"
@@ -108,52 +76,46 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.537"
+        app:layout_constraintVertical_bias="0.392"
         app:srcCompat="@drawable/cuadro_gris_redondeado" />
 
     <EditText
-        android:id="@+id/descripcion"
-        android:layout_width="307dp"
-        android:layout_height="112dp"
+        android:id="@+id/descripcionGrupo"
+        android:layout_width="304dp"
+        android:layout_height="120dp"
         android:background="@android:color/transparent"
         android:fontFamily="@font/news_cycle"
+        android:gravity="top|start"
         android:hint="Escribe la descripción del grupo"
         android:inputType="textEmailAddress"
-        android:gravity="top|start"
         android:textColor="#515151"
         android:textColorHint="#B0B0B0"
-        android:textSize="15sp"
+        android:textSize="13sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.537" />
+        app:layout_constraintVertical_bias="0.394" />
 
-    <ImageView
-        android:id="@+id/circulo"
-        android:layout_width="34dp"
-        android:layout_height="34dp"
+    <EditText
+        android:id="@+id/nombreGrupo"
+        android:layout_width="206dp"
+        android:layout_height="29dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/news_cycle"
+        android:hint="Escribe el nombre del grupo"
+        android:inputType="textEmailAddress"
+        android:textColor="#515151"
+        android:textColorHint="#B0B0B0"
+        android:textSize="13sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.22"
+        app:layout_constraintHorizontal_bias="0.253"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.344"
-        app:srcCompat="@drawable/circulo" />
-
-    <ImageButton
-        android:id="@+id/editar"
-        android:layout_width="34dp"
-        android:layout_height="34dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.22"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.344"
-        app:srcCompat="@drawable/editar"
-        android:backgroundTint="#EDECEC"
-        />
+        app:layout_constraintVertical_bias="0.259" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
