@@ -87,6 +87,7 @@ class FirebaseHelper {
         }
     }
 
+    // La función consultarUsuarios muestra todos los usuarios registrados en la App
     fun consultarUsuarios(database: DatabaseReference, callback: (List<Usuario>) -> Unit) {
         database.addListenerForSingleValueEvent(object : ValueEventListener {
             override fun onDataChange(dataSnapshot: DataSnapshot) {
