@@ -37,6 +37,7 @@ class GruposAdaptador(
         val grupo = grupos[position]
         holder.nombreGrupoTextView.text = grupo.nombre
 
+        // Selección de la opción de menu de grupo.
         holder.menuButton.setOnClickListener {
             val popup = PopupMenu(holder.itemView.context, holder.menuButton)
             popup.inflate(R.menu.menu_grupo)
