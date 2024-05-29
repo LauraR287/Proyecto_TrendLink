@@ -9,6 +9,8 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.RecyclerView
 
+// Permite mostrar una lista de grupos en un RecyclerView. 
+// Cada ítem de la lista tiene un botón de menú que permite al usuario realizar acciones como editar, ver información o eliminar un grupo.
 class GruposAdaptador(
     private val grupos: List<Grupo>,
     private val listener: OnGrupoClickListener
