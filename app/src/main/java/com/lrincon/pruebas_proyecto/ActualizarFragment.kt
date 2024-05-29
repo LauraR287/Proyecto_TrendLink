@@ -1,3 +1,5 @@
+// CONTROLLER
+
 package com.lrincon.pruebas_proyecto
 
 import android.os.Bundle
@@ -7,6 +9,8 @@ import android.widget.EditText
 import androidx.fragment.app.Fragment
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
+
+// Permitirá actualizar los datos de un grupo, solo los campos de nombre y descripción.
 
 class ActualizarFragment : Fragment(R.layout.editar_grupo) {
 
