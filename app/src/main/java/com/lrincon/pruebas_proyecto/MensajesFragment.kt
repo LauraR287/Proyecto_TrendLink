@@ -13,6 +13,9 @@ import androidx.recyclerview.widget.RecyclerView
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 
+// Este fragment es la vista principal del botón mensajes.
+// Permite crear un grupo o seleccionar las posibilidades del menú del grupo.
+
 class MensajesFragment : Fragment(R.layout.bandeja_mensajes), GruposAdaptador.OnGrupoClickListener {
 
     private lateinit var database: DatabaseReference
@@ -32,6 +35,7 @@ class MensajesFragment : Fragment(R.layout.bandeja_mensajes), GruposAdaptador.On
         val buttonCrearGrupo = view.findViewById<Button>(R.id.crearGrupo)
         noGruposTextView = view.findViewById<Button>(R.id.noGruposTextView)
 
+        // Muestra si hay o no grupos disponibles
         firebaseHelper.consultarGrupo(database) { grupos ->
             if (grupos.isEmpty()) {
                 noGruposTextView.visibility = View.VISIBLE
@@ -53,6 +57,7 @@ class MensajesFragment : Fragment(R.layout.bandeja_mensajes), GruposAdaptador.On
         }
     }
 
+// Las funciones que hay de aquí para abajo hacen parte del menú de opciones de un grupo.
     override fun onEditarGrupo(grupo: Grupo) {
         val fragment = ActualizarFragment()
         val bundle = Bundle()
