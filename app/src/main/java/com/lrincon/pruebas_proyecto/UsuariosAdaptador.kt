@@ -7,6 +7,8 @@ import android.widget.CheckBox
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
+// Permite mostrar una lista de usuarios en un RecyclerView, se pueden seleccionar por medio de un chackbox. 
+
 class UsuariosAdaptador(
     private val usuarios: List<Usuario>,
     private val fragment: CrearGrupoFragment
