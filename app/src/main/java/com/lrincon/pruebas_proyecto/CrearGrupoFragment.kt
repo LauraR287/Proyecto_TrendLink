@@ -10,7 +10,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 
-
+// Se crea un nuevo grupo, se requiere de nombre del grupo, descripción y los integrantes.
 class CrearGrupoFragment: Fragment(R.layout.ajustes_grupo) {
 
     private lateinit var database: DatabaseReference
@@ -39,6 +39,7 @@ class CrearGrupoFragment: Fragment(R.layout.ajustes_grupo) {
         editTextNombre = view.findViewById(R.id.nombreGrupo)
         editTextDescripcion = view.findViewById(R.id.descripcionGrupo)
 
+        // Se muestran todos los chats grupales que se tienen activos
         firebaseHelper.consultarUsuarios(databaseUsuarios) { usuarios ->
             usuarioAdapter = UsuariosAdaptador(usuarios, this)
             recyclerView.adapter = usuarioAdapter
