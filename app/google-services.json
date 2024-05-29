@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "960841055221",
+    "project_id": "disenioarquitectura-59308",
+    "storage_bucket": "disenioarquitectura-59308.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:960841055221:android:b347f5f5af5e796678bebc",
+        "android_client_info": {
+          "package_name": "com.lrincon.pruebas_proyecto"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5pCJbURrYo-X4nXvgR69ODHaj2ODGV-c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
